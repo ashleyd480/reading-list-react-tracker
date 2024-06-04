@@ -1,0 +1,30 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Insert mobile device CSS styling here first below */
+
+@media screen and (min-width: 560px) and (max-width: 767px) {
+  main,
+  .to-do-list {
+    width: 100vw;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  main,
+  .to-do-list {
+    width: 90vw;
+    max-width: 960px;
+  }
+}

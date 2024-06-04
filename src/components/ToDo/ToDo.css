@@ -1,0 +1,107 @@
+/*to do list container */
+
+.to-do-list {
+
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     border: 2px solid black;
+
+    
+}
+
+.checkbox 
+{
+  transform: scale(2); /* Adjust the size as needed */
+margin-left: 250px;
+margin-right: 20px;
+
+}
+/*main button container */
+
+
+
+.main-button-container {
+  display: flex;
+  justify-content: space-between; 
+
+
+margin-bottom: 20px;
+gap: 100px;
+
+}
+
+#error-message {
+    color:red;
+    width: 350px;
+}
+
+/*button styling*/
+.green {
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px 30px; /* 10 px for top/bottom, 30 px for left/right
+    border: none */
+  }
+  
+  .green:hover {
+    background-color: darkgreen;
+  }
+  
+  .red {
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .red:hover {
+    background-color: darkred;
+  }
+
+  .gray {
+    
+      background-color: rgb(225, 225, 225);
+      color: white;
+      border-radius: 5px;
+      cursor: pointer;
+      /* padding: 7px; */
+      cursor: pointer;
+      border-radius: 5px;
+      margin-left: 10px;
+     
+  }
+
+
+  .gray:hover {
+    background-color: rgb(204, 204, 204);
+  }
+  
+
+  /*to do list style*/
+  .to-do-row {
+    display: flex;
+    justify-content: space-between; 
+    /* width: 350px; */
+  padding-bottom: 15px;
+   margin-left: -40px;
+   margin-bottom: 50px;
+   border-bottom: 2px solid gray;
+   align-items: center;
+
+  }
+
+  .action-items {
+    display: flex;
+    align-items: center;
+  }
+
+  ul#task-list {
+    list-style: none;
+  }
+
+  .completed-task {
+    text-decoration: line-through;}
