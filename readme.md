@@ -15,6 +15,8 @@ Users can use this app to add books that they want to read to a reading list. Th
 Once a user is done reading a book, they can check it off their list. Otherwise if a user no longer wants to read a book, they can click on the trashcan icon to remove it off their list. 
 The history tab shows books that the user has finished reading, as well as ones the user has removed from their reading list. Finally, the search bar allows users to search by book title, showing both books the user wants to read as well as ones they have completed (as indicated by the true/false status)
 
+![Tracker App UX](src/assets/tracker-app-ux.png)
+
 ## Demo
 I've recorded a quick ~ two minute demo that shows the user experience flow. You may watch that video [here](src/assets/book-tracker-demo.mov).
 
@@ -24,7 +26,6 @@ When cloning the project for use- make sure to run  `npm i` to install required 
 ```
 npm install react-icons -save
 npm install react-router-dom
-
 ```
 
 ---
@@ -47,7 +48,6 @@ const Counter = ({ stuffToDo }) => {
             <LuListTodo size={"3em"} />
             
         {notCompletedCount > 0 && <span className="todo-count">{notCompletedCount}</span>}
-
 
 ```
 ### NavBar and Routes

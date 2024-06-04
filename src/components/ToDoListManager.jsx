@@ -57,7 +57,7 @@ const ToDoListManager = ({
       setStuffToDo([]);
       setErrorMessage(""); // Reset error message
     } else {
-      setErrorMessage("You have no tasks to delete. Silly human!");
+      setErrorMessage("You have no books to delete. Silly human!");
     }
   };
 
