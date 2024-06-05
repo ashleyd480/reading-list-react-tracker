@@ -19,7 +19,7 @@ The history tab shows books that the user has finished reading, as well as ones 
 ![Tracker App UX](src/assets/tracker-app-ux.png)
 
 ## Demo
-I've recorded a quick ~ two minute demo that shows the user experience flow. You may watch that video [here](src/assets/book-tracker-demo.mov).
+I've recorded a quick ~ two minute demo that shows the user experience flow. You may watch that video [here](https://www.youtube.com/watch?v=JXRmuNOzAqw).
 
 ## Installation
 When cloning the project for use- make sure to run  `npm i` to install required React dependencies on your local machine. Also, you will want to run the following two lines, as my app uses `react-router` and `react-icons`:
